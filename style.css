@@ -1,0 +1,101 @@
+*{margin: 0%;
+padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+ img{
+    width: 100vw;
+    height: 100vh;
+    
+}
+ul{
+    margin-top: -600px;
+    margin-left:800px;
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+}
+ul li :hover{
+    background-color: none;
+    color: #000;
+    cursor: pointer;
+    
+}
+ul li a{
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;;
+    list-style-type: none;
+    font-weight: 600;
+    padding: 10px;
+display: flex;
+}
+h1{
+    
+    display: flex;
+    flex: auto; 
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(8, 2, 2);
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+p{
+    position: absolute;
+    top: 63%;
+    left: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:rgb(17, 2, 2);
+    font-size: 20px;
+    text-align: center;
+}
+.ak{
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    margin: 20px 0;
+    border-radius: 25px;
+    width:200px;
+    padding: 15px;
+    background: transparent;
+    border: 2x solid ;
+    transition: 1s;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    background-color:rgb(40, 54, 54);
+    }
+    
+
+.ak:hover{
+    cursor: pointer;
+    color:aqua;
+    
+}
+.button{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: medium;
+        position: absolute;
+        top: 85%;
+        left: 60%;
+        margin: 20px 0;
+        border-radius: 25px;
+        width: 200px;
+        padding: 15px;
+        background: transparent;
+        border: 2x solid;
+        cursor: pointer;
+        transition: 1s;
+        font-weight: bold;
+        color: white;
+        background-color: rgb(40, 54, 54);
+}
+.button:hover {
+    cursor: pointer;
+    color:aqua;
+}
